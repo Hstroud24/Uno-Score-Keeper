@@ -14,15 +14,26 @@ hr {
 
 table {
   margin: auto;
-  border-spacing: 5px 10px;
+  border-spacing: 15px 10px;
+  background-color: lightgrey;
+  font-size: 25px;
 }
 
 input {
   margin-left: 10px;
-  width: 100px;
+  width: 150px;
   text-align: center;
+  font-size: 25px;
+
 }
 
 td {
   text-align: center;
+}
+
+button {
+  width: 125px;
+  font-size: 20px;
+  padding: 10px 0 10px 0;
+  border-radius: 25px;
 }

@@ -2,19 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-
-    <script src="learnjavascript.js"></script>
     <link rel="stylesheet" href="styles.css">
-
     <title>Uno Score Keeper</title>
   </head>
 
   <body>
-
     <h1>UNO SCORE KEEPER</h1>
     <hr>
 
-
+    <!-- Score Table -->
     <table>
       <tr class = "playerNames">
         <th> Names: </th>
@@ -27,29 +23,25 @@
 
       <tr class ="playersScore">
         <th> Score: </th>
-        <td> 0 </td>
-        <td> 0 </td>
-        <td> 0 </td>
-        <td> 0 </td>
-        <td> 0 </td>
+        <td> <output class = "player-0"> </output> </td>
+        <td> <output class = "player-1"> </output> </td>
+        <td> <output class = "player-2"> </output> </td>
+        <td> <output class = "player-3"> </output> </td>
+        <td> <output class = "player-4"> </output> </td>
       </tr>
 
        <tr class="currentRound">
          <th>Current Round: </th>
-         <td> <input> </td>
-         <td> <input> </td>
-         <td> <input> </td>
-         <td> <input> </td>
-         <td> <input> </td>
-         <td> <button>Add Score </button></td>
+         <td> <input type="number" class="current-0"> </td>
+         <td> <input type="number" class="current-1"> </td>
+         <td> <input type="number" class="current-2"> </td>
+         <td> <input type="number" class="current-3"> </td>
+         <td> <input type="number" class="current-4"> </td>
+         <td> <button class ="addbt">Add Score </button></td>
        </tr>
     </table>
 
-
-
-
-
-
-
   </body>
+
+  <script src="script.js"></script>
 </html>
