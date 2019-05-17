@@ -1,0 +1,28 @@
+html, body{
+  margin: 0px;
+  height: 100%;
+}
+
+h1 {
+  width: 350px;
+  margin: 20px auto 20px auto;
+}
+
+hr {
+  width: 50%;
+}
+
+table {
+  margin: auto;
+  border-spacing: 5px 10px;
+}
+
+input {
+  margin-left: 10px;
+  width: 100px;
+  text-align: center;
+}
+
+td {
+  text-align: center;
+}
